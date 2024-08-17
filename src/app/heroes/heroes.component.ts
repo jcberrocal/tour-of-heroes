@@ -19,5 +19,6 @@ export class HeroesComponent {
 
   onSelect(hero: Hero){
     this.selectedHero = hero;
+    console.log(hero);
   }
 }
